@@ -1,5 +1,4 @@
-//CLASSES AND OBJECTS
-// CLASSES
+package ClassesAndObjects;
 /* DECLARING CLASSES:
     Modifiers such as public, privates and a number of others
     The class name, with the initial letter capitalized by convention.
@@ -17,3 +16,31 @@
     fields: provide the state of the class and its objects
     methods: To implement the behavior of the class and its objects.
  */
+
+class Bicycle{
+    public int cadence;
+    public int gear;
+    public int speed;
+
+    public Bicycle(int startCadence, int startSpeed, int startGear){
+        cadence = startCadence;
+        gear = startGear;
+        speed = startSpeed;
+    }
+
+    public void setCadence(int newValue){
+        cadence = newValue;
+    }
+    
+    public void setGear(int newValue){
+        gear = newValue;
+    }
+
+    public void applyBreak(int decrement){
+        speed -= decrement;
+    }
+
+    public void speedup(int increment){
+        speed += increment;
+    }
+}
