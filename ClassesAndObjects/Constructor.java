@@ -17,7 +17,7 @@ package ClassesAndObjects;
     }
  }
 
- class ChildClass{
+ class ChildClass /*extends SuperClass*/{
     //No constructor defined here.
  }
 
