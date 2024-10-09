@@ -8,24 +8,24 @@ package ClassesAndObjects;
     -> In this situation, the compiler will complain if the superclass doesn't have a no-argument constructor so you must verify that it does. 
  */
 
- //EXAMPLE:
+//  //EXAMPLE:
 
- // Superclass with only parameterized constructor
- class SuperClass{
-    public SuperClass(int x){
-        System.out.println("Parameterized constructor of SuperClass: " + x);
-    }
- }
+//  // Superclass with only parameterized constructor
+//  class SuperClass{
+//     public SuperClass(int x){
+//         System.out.println("Parameterized constructor of SuperClass: " + x);
+//     }
+//  }
 
- class ChildClass /*extends SuperClass*/{
-    //No constructor defined here.
- }
+//  class ChildClass /*extends SuperClass*/{
+//     //No constructor defined here.
+//  }
 
- class Main {
-    public static void main(String[] args) {
-        ChildClass child = new ChildClass(); //This will cause a compile-time error.
-    }
- }
+//  class Main {
+//     public static void main(String[] args) {
+//         ChildClass child = new ChildClass(); //This will cause a compile-time error.
+//     }
+//  }
 
  /*
   * If a child class does not explicitly define a constructor and its superclass only has a parameterized constructor,
