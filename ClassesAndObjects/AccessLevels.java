@@ -38,5 +38,5 @@ If other programmers use your class, you want to ensure that errors from misuse 
 
 -> Use the most restrictive access level that makes sense for a particular member. Use private unless you have a good reason not to.
 -> Avoid public fields except for constants.Public fields tend to link you to a particular implementation and limit your flexibility in changing your code.
--> The preferred approach is to make fields private and provide getter and setter methods for controlled access, allowing future flexibility and encapsulation.
+-> The preferred approach is to make fields private and provide getter and setter methods for controlled access, allowing future flexibility and encapsulation
  */
