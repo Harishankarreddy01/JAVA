@@ -106,6 +106,7 @@ public class Main {
         // All instances share the same connection pool
         ConnectionPool pool2 = DatabaseManager.getConnectionPool();
         System.out.println(pool2);
+        
     }
 }
 
